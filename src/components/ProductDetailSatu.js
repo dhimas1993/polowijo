@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import HeaderProduct from './HeaderProduct'
 import BgProduct from '../images/backgroundImage/BgProduct1.png'
 import NPKGranul from '../images/productImage/NPKGranul.png'
-import TabelGranul from '../images/tableImage/TabelGranul.jpg'
+import dolomit from '../images/productImage/1dolomit.png'
 
 var styles ={
     width: '100%',
@@ -27,7 +27,7 @@ class ProductDetailSatu extends Component{
                         <div className="row mt-5">
                             <div className="card bg-transparent" >
                                 <div>
-                                <img src={NPKGranul} className="card-img-top " alt="..."/>
+                                <img src={dolomit} className="card-img-top " alt="..."/>
                                 </div>
                             </div>
                         </div>

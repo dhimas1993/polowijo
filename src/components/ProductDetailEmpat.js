@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import HeaderProduct from './HeaderProduct'
 import BgProduct from '../images/backgroundImage/BgProduct1.png'
-import NPKGranul from '../images/productImage/NPKGranul.png'
+import NPKGranul from '../images/productImage/npkTablet.png'
 import TabelGranul from '../images/tableImage/TabelTablet.jpg'
 
 var styles ={
