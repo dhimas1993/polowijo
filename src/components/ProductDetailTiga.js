@@ -5,6 +5,8 @@ import BgProduct from '../images/backgroundImage/BgProduct1.png'
 import NPKGranul from '../images/productImage/npkBriket.png'
 import TabelBriket from '../images/tableImage/TabelBriket.jpg'
 
+import './table.css'
+
 var styles ={
     width: '100%',
     height: '100vh',
@@ -35,7 +37,7 @@ class ProductDetailTiga extends Component{
 
                         <div className="row">
                             <div className="card bg-transparent" >
-                                <div>
+                                <div className="table1">
                                 <img style={{width:655, marginLeft:80}} src={TabelBriket} className="card-img-top" alt="..."/>
                                 </div>
                             </div>
