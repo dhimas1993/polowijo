@@ -20,7 +20,7 @@ class HeaderProduct extends Component{
                     </Link>
                     <form class="form-inline">
                         <Link to="/">
-                            <img src={HomeIcon} className="my-2 my-sm-0 mx-2" alt="foto 1" style={styles}/>
+                           Home <img src={HomeIcon} className="my-2 my-sm-0 mx-2" alt="foto 1" style={styles}/>
                         </Link>
                     </form>
                 </nav>

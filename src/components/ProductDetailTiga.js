@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import HeaderProduct from './HeaderProduct'
-import BgProduct from '../images/backgroundImage/BgProduct.png'
+import BgProduct from '../images/backgroundImage/BgProduct1.png'
 import NPKGranul from '../images/productImage/NPKGranul.png'
 import TabelBriket from '../images/tableImage/TabelBriket.jpg'
 

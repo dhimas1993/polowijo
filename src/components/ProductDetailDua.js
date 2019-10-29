@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import HeaderProduct from './HeaderProduct'
-import BgProduct from '../images/backgroundImage/BgProduct.png'
+import BgProduct from '../images/backgroundImage/BgProduct1.png'
 import NPKGranul from '../images/productImage/NPKGranul.png'
 import TabelGranul from '../images/tableImage/TabelGranul.jpg'
 
@@ -21,11 +21,11 @@ class ProductDetailDua extends Component{
         return(
             <div style={styles}>
                 <HeaderProduct/>
-                <div className="container">
+                <div className="container mx-auto">
                     <div className="row">
                     <div className="col">
                         <div className="row mt-5">
-                            <div className="card bg-transparent" >
+                            <div className="card bg-transparent mx-auto" >
                                 <div>
                                 <img src={NPKGranul} className="card-img-top " alt="..."/>
                                 </div>

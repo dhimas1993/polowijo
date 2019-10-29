@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import HeaderProduct from './HeaderProduct'
-import BgProduct from '../images/backgroundImage/BgProduct.png'
+import BgProduct from '../images/backgroundImage/BgProduct1.png'
 import NPKGranul from '../images/productImage/NPKGranul.png'
 import TabelGranul from '../images/tableImage/TabelGranul.jpg'
 
@@ -32,13 +32,7 @@ class ProductDetailSatu extends Component{
                             </div>
                         </div>
 
-                        <div className="row">
-                            <div className="card bg-transparent" >
-                                <div>
-                                <img src={TabelGranul} className="card-img-top ml-3" alt="..."/>
-                                </div>
-                            </div>
-                        </div>
+                        
                         
                     </div>
 
