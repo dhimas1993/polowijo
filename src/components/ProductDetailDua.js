@@ -21,13 +21,13 @@ class ProductDetailDua extends Component{
         return(
             <div style={styles}>
                 <HeaderProduct/>
-                <div className="container mx-auto">
+                <div className="container-fluid">
                     <div className="row">
                     <div className="col">
-                        <div className="row mt-5">
-                            <div className="card bg-transparent mx-auto" >
+                        <div className="row mt-4 ">
+                            <div className="card bg-transparent" >
                                 <div>
-                                <img src={NPKGranul} className="card-img-top " alt="..."/>
+                                <img style={{width:550, marginLeft:140}} src={NPKGranul} className="card-img-top " alt="..."/>
                                 </div>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ class ProductDetailDua extends Component{
                         <div className="row">
                             <div className="card bg-transparent" >
                                 <div>
-                                <img src={TabelGranul} className="card-img-top ml-3" alt="..."/>
+                                <img style={{width:655, marginLeft:80}} src={TabelGranul} className="card-img-top " alt="..."/>
                                 </div>
                             </div>
                         </div>

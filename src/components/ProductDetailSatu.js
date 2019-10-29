@@ -21,13 +21,13 @@ class ProductDetailSatu extends Component{
         return(
             <div style={styles}>
                 <HeaderProduct/>
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                     <div className="col">
-                        <div className="row mt-5">
+                        <div className="row mt-5 mx-auto">
                             <div className="card bg-transparent" >
                                 <div>
-                                <img src={dolomit} className="card-img-top " alt="..."/>
+                                <img style={{width:550, marginLeft:110, marginTop:110}} src={dolomit} className="card-img-top " alt="..."/>
                                 </div>
                             </div>
                         </div>

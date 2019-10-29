@@ -23,13 +23,13 @@ class ProductDetailEmpat extends Component{
             <div style={styles}>
                 <HeaderProduct/>
                 
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                     <div className="col">
                         <div className="row mt-5">
                             <div className="card bg-transparent" >
                                 <div>
-                                <img src={NPKGranul} className="card-img-top " alt="..."/>
+                                <img style={{width:550, marginLeft:110}} src={NPKGranul} className="card-img-top " alt="..."/>
                                 </div>
                             </div>
                         </div>
@@ -37,7 +37,7 @@ class ProductDetailEmpat extends Component{
                         <div className="row">
                             <div className="card bg-transparent" >
                                 <div>
-                                <img src={TabelGranul} className="card-img-top ml-3" alt="..."/>
+                                <img style={{width:655, marginLeft:80}}  src={TabelGranul} className="card-img-top" alt="..."/>
                                 </div>
                             </div>
                         </div>
