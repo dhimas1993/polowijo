@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom'
 
 import HeaderProduct from './HeaderProduct'
 import BgProduct from '../images/backgroundImage/bgbriket.jpg'
@@ -48,27 +49,32 @@ class ProductDetailTiga extends Component{
                         <div className="row my-2 ml-5">
                             <div className="card bg-transparent border-0" >
                                 <div className="card-body">
-                                    <h1 className="card-title">NPK Briket Pullet</h1>
-                                    <h5 className="card-text">NPK BRIKET – PULLET merupakan pupuk majemuk NPK LENGKAP berbentuk briket 
+                                    <h1 className="card-title text-light">NPK Briket Pullet</h1>
+                                    <h4 className="card-text text-light">NPK BRIKET – PULLET merupakan pupuk majemuk NPK LENGKAP berbentuk briket 
                                     dengan kandungan unsur hara makro, dan dilengkapi unsur mikro essensial yang mutlak dibutuhkan 
                                     tanaman. Dengan kandungan bahan lepas lambat yang sesuai untuk tanaman semusim dan tahunan.
                                     Cocok untuk ditanah yang memiliki kemiringan + 45°.
-                                    </h5>
+                                    </h4>
                                 </div>
                             </div>
 
                             <div className="card bg-transparent border-0" >
                                 <div className="card-body">
-                                    <h1 className="card-title">Spesifikasi</h1>
-                                    <h5 className="card-text">
+                                    <h1 className="card-title text-light">Spesifikasi</h1>
+                                    <h4 className="card-text text-light">
                                     Bentuk		: Briket<br/>
                                     Ukuran		: 1 – 1.5 gram/butir<br/>
                                     Kadar Air (%)	:  4 %<br/>
                                     Kemasan	:@ 25 Kg/Zak
                                             Karung polipropilene dengan inner Liner Polietilene<br/>
-                                    </h5>
+                                    </h4>
                                 </div>
                             </div>
+                            <div className="mt-5 mx-auto" style={{borderRadius:20}}>
+                                    <Link to="/productempat"> 
+                                        <button className="btn btn-primary mr-5 my-auto">Next</button>
+                                    </Link>
+                                </div>
                         </div>
                     </div>
                     </div>

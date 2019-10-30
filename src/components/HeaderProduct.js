@@ -19,9 +19,11 @@ class HeaderProduct extends Component{
                             <img src={LogoHome} className="navbar-brand" alt="foto 1" style={stylesLogo}/>
                     </Link>
                     <form class="form-inline">
+                        
                         <Link to="/">
                            Home <img src={HomeIcon} className="my-2 my-sm-0 mx-2" alt="foto 1" style={styles}/>
                         </Link>
+                        
                     </form>
                 </nav>
             </div>

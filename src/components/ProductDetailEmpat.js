@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom'
 
 import HeaderProduct from './HeaderProduct'
 import BgProduct from '../images/backgroundImage/bgbriketpullet.jpg'
@@ -48,8 +49,8 @@ class ProductDetailEmpat extends Component{
                         <div className="row my-2 ml-5">
                             <div className="card bg-transparent border-0" >
                                 <div className="card-body">
-                                    <h1 className="card-title">NPK Tablet Pullet</h1>
-                                    <h5 className="card-text">NPK TABLET – PULLET merupakan Pupuk Majemuk Lengkap Lepas Terkendali (PMLT) 
+                                    <h1 className="card-title ">NPK Tablet Pullet</h1>
+                                    <h5 className="card-text text-light">NPK TABLET – PULLET merupakan Pupuk Majemuk Lengkap Lepas Terkendali (PMLT) 
                                     dalam bentuk tablet yang terbuat dari komposisi dan unsur hara yang lengkap sesuai kebutuhan tanaman 
                                     dengan Teknik pembuatan dan kemasan khusus.
                                     </h5>
@@ -58,30 +59,35 @@ class ProductDetailEmpat extends Component{
                     
                             <div className="card bg-transparent border-0" >
                                 <div className="card-body">
-                                    <h1 className="card-title">Keunggulan</h1>
-                                    <h5 className="card-text">
+                                    <h1 className="card-title ">Keunggulan</h1>
+                                    <h4 className="card-text text-light">
                                     Meningkatkan efisiensi pemupukan secara signifikan <br/>
                                     Menekan serendah-rendahnya kehilangan unsur hara oleh fiksasi partikel tanah, volatisasi dan pencucian.<br/>
                                     Mensuplai unsur hara tanaman dalam jumlah, perbandingan, maupun kontinuitas lebih baik di banding pupuk tunggal.<br/>
                                     Mengurangi biaya pemupukan 10 – 15%<br/>
                                     Mampu mensuplai unsur hara selama 8 – 12 bulan.
-                                    </h5>
+                                    </h4>
                                 </div>
                             </div>
 
                             <div className="card bg-transparent border-0">
                                 <div className="card-body">
-                                    <h1 style={{}} className="card-title">Spesifikasi</h1>
-                                    <h5 className="card-text">
+                                    <h1 style={{}} className="card-title ">Spesifikasi</h1>
+                                    <h4 className="card-text text-light">
                                     Bentuk	    	: Tablet @ 10 gr<br/>
                                     Formulasi		: N, P, K, Mg, Ca, S Plus Unsur Mikro<br/>
                                     Kelarutan	: 8 s/d 12 Bulan<br/>
                                     Kemasan	: Kantung Plastik isi 5 KG <br/>
                                             Dalam Kotak Karton Isi 20 Kg/ 50Kg
                                             <br/>
-                                    </h5>
+                                    </h4>
                                 </div>
                             </div>
+                            <div className="my-auto" style={{borderRadius:20}}>
+                                    <Link to="/productsatu"> 
+                                        <button className="btn btn-primary mr-5 my-auto">Next</button>
+                                    </Link>
+                                </div>
                         </div>
                     </div>
                     </div>

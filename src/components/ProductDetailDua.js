@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom'
 
 import HeaderProduct from './HeaderProduct'
 import BgProduct from '../images/backgroundImage/bgnpkgranul.jpg'
@@ -46,7 +47,7 @@ class ProductDetailDua extends Component{
                         <div className="row my-2 ml-5">
                             <div className="card bg-transparent border-0" >
                                 <div className="card-body">
-                                    <h1 className="card-title">NPK Granul Pullet</h1>
+                                    <h1 className="card-title ">NPK Granul Pullet</h1>
                                     <h5 className="card-text">Pupuk Majemuk NPK PULLET merupakan pupuk majemuk NPK LENGKAP dengan kandungan unsur 
                                     hara Makro (N-P-K-Mg) dan dilengkapi dengan unsur hara makro essensial (Zn-Cu-B) yang mutlak di butuhkan tanaman,
                                     sehingga NPK PULLET memberikan jaminan keseragaman penyebaran semua unsur hara agar pertumbuhan dan produktifitas 
@@ -82,6 +83,12 @@ class ProductDetailDua extends Component{
                                     </h5>
                                 </div>
                             </div>
+
+                            <div className="my-auto" style={{borderRadius:20}}>
+                                    <Link to="/producttiga"> 
+                                        <button className="btn btn-primary mr-5 my-auto">Next</button>
+                                    </Link>
+                                </div>
                         </div>
                     </div>
                     </div>
