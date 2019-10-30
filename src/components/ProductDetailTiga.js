@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import HeaderProduct from './HeaderProduct'
-import BgProduct from '../images/backgroundImage/BgProduct1.png'
+import BgProduct from '../images/backgroundImage/bgbriket.jpg'
 import NPKGranul from '../images/productImage/npkBriket.png'
 import TabelBriket from '../images/tableImage/TabelBriket.jpg'
 
@@ -28,7 +28,7 @@ class ProductDetailTiga extends Component{
                     <div className="row">
                     <div className="col">
                         <div className="row mt-5 ">
-                            <div className="card bg-transparent" >
+                            <div className="card border-0 bg-transparent" >
                                 <div >
                                 <img style={{width:550, marginLeft:110}} src={NPKGranul} className="card-img-top " alt="..."/>
                                 </div>
@@ -48,25 +48,25 @@ class ProductDetailTiga extends Component{
                         <div className="row my-2 ml-5">
                             <div className="card bg-transparent border-0" >
                                 <div className="card-body">
-                                    <h5 className="card-title">NPK Briket Pullet</h5>
-                                    <p className="card-text">NPK BRIKET – PULLET merupakan pupuk majemuk NPK LENGKAP berbentuk briket 
+                                    <h1 className="card-title">NPK Briket Pullet</h1>
+                                    <h5 className="card-text">NPK BRIKET – PULLET merupakan pupuk majemuk NPK LENGKAP berbentuk briket 
                                     dengan kandungan unsur hara makro, dan dilengkapi unsur mikro essensial yang mutlak dibutuhkan 
                                     tanaman. Dengan kandungan bahan lepas lambat yang sesuai untuk tanaman semusim dan tahunan.
                                     Cocok untuk ditanah yang memiliki kemiringan + 45°.
-                                    </p>
+                                    </h5>
                                 </div>
                             </div>
 
                             <div className="card bg-transparent border-0" >
                                 <div className="card-body">
-                                    <h5 className="card-title">Spesifikasi</h5>
-                                    <p className="card-text">
+                                    <h1 className="card-title">Spesifikasi</h1>
+                                    <h5 className="card-text">
                                     Bentuk		: Briket<br/>
                                     Ukuran		: 1 – 1.5 gram/butir<br/>
                                     Kadar Air (%)	:  4 %<br/>
                                     Kemasan	:@ 25 Kg/Zak
                                             Karung polipropilene dengan inner Liner Polietilene<br/>
-                                    </p>
+                                    </h5>
                                 </div>
                             </div>
                         </div>

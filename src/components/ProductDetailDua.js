@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import HeaderProduct from './HeaderProduct'
-import BgProduct from '../images/backgroundImage/BgProduct1.png'
+import BgProduct from '../images/backgroundImage/bgnpkgranul.jpg'
 import NPKGranul from '../images/productImage/NPKGranul.png'
 import TabelGranul from '../images/tableImage/TabelGranul.jpg'
 
@@ -25,7 +25,7 @@ class ProductDetailDua extends Component{
                     <div className="row">
                     <div className="col">
                         <div className="row mt-4 ">
-                            <div className="card bg-transparent" >
+                            <div className="card border-0 bg-transparent" >
                                 <div>
                                 <img style={{width:550, marginLeft:140}} src={NPKGranul} className="card-img-top " alt="..."/>
                                 </div>
@@ -46,19 +46,19 @@ class ProductDetailDua extends Component{
                         <div className="row my-2 ml-5">
                             <div className="card bg-transparent border-0" >
                                 <div className="card-body">
-                                    <h5 className="card-title">NPK Granul Pullet</h5>
-                                    <p className="card-text">Pupuk Majemuk NPK PULLET merupakan pupuk majemuk NPK LENGKAP dengan kandungan unsur 
+                                    <h1 className="card-title">NPK Granul Pullet</h1>
+                                    <h5 className="card-text">Pupuk Majemuk NPK PULLET merupakan pupuk majemuk NPK LENGKAP dengan kandungan unsur 
                                     hara Makro (N-P-K-Mg) dan dilengkapi dengan unsur hara makro essensial (Zn-Cu-B) yang mutlak di butuhkan tanaman,
                                     sehingga NPK PULLET memberikan jaminan keseragaman penyebaran semua unsur hara agar pertumbuhan dan produktifitas 
                                     dari tanaman maksimal.
-                                    </p>
+                                    </h5>
                                 </div>
                             </div>
                     
                             <div className="card bg-transparent border-0" >
                                 <div className="card-body">
-                                    <h5 className="card-title">Keunggulan</h5>
-                                    <p className="card-text">
+                                    <h1 className="card-title">Keunggulan</h1>
+                                    <h5 className="card-text">
                                         Berbentuk Granul yang mantap dan tidak mudah hancur<br/>
                                         Tahan lama dan mempermudah proses penyimpanan<br/>
                                         Dengan bentuk Granul, aplikasi pupuk dapat dilakukan dengan mudah<br/>
@@ -66,20 +66,20 @@ class ProductDetailDua extends Component{
                                         Formulasi khusus untuk tanaman, agar dapat tumbuh dan berproduksi dengan hasil yang optimal<br/>
                                         Manfaat dan efektifitas yang tinggi dengan harga yang sangat kompetitif<br/>
 
-                                    </p>
+                                    </h5>
                                 </div>
                             </div>
 
                             <div className="card bg-transparent border-0" >
                                 <div className="card-body">
-                                    <h5 className="card-title">Spesifikasi</h5>
-                                    <p className="card-text">
+                                    <h1 className="card-title">Spesifikasi</h1>
+                                    <h5 className="card-text">
                                     Bentuk		: Granul<br/>
                                     Ukuran		: 2-4 mm / butir <br/>
                                     Kadar Air (%)	:  2 %<br/>
                                     Kemasan	: @ 25 Kg/Zak dan 50 Kg/Zak<br/>
                                     Karung poloporpilene dengan inne Liner Polietilene<br/>
-                                    </p>
+                                    </h5>
                                 </div>
                             </div>
                         </div>
